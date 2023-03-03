@@ -130,10 +130,11 @@
             <h1> Login Page </h1>
             <form action="validate.php" method="POST">
                 <!-- <label>User-Email</label> -->
-                <input type="text" name="email" placeholder="User Email" /><br/><br/>
+                <input type="text" name="email" placeholder="User Email" required/><br/><br/>
                 <!-- <label>Password</label> -->
-                <input type="password" name="password" placeholder="Password"/><br><br>
-                <button class="login" type="submit" value="Login">Login</button> 
+                <input type="password" name="password" placeholder="Password" required/><br><br>
+                <button class="login" type="submit" value="Login">Login</button>
+                <label class="new"> <a link href="forgot.php"> Forget Password ?</a> </label> 
                 <label class="new"> New User? Create an account </label>
                 <button class="signup"type="button" onclick="window.location.href='signup.php'">Signup</button>
             </form>

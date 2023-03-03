@@ -117,13 +117,13 @@
         <div class = "container" id="box">
             <h1> Signup </h1>
             <form action="validate.php" method="GET">
-                <input type="text" name="FirstName" placeholder="First Name" /><br/><br/>
-                <input type="text" name="LastName" placeholder = "Last Name"/><br/><br/>
-                <input type="password" name="password" placeholder="Set up a new password"/><br><br>
-                <input type="password" name="password" placeholder="Confirm your password"/><br><br>
-                <input type="text" name="email" placeholder="E-Mail" /><br/><br/>
+                <input type="text" name="FirstName" placeholder="First Name" required/><br/><br/>
+                <input type="text" name="LastName" placeholder = "Last Name" required/><br/><br/>
+                <input type="password" name="password" placeholder="Set up a new password" required/><br><br>
+                <input type="password" name="cpassword" placeholder="Confirm your password" required/><br><br>
+                <input type="text" name="email" placeholder="E-Mail" required/><br/><br/>
                 <label class="new"> Date of Birth </label>
-                <input type ="date" name="DOB" placeholder = "Date of Birth" /><br/><br/>
+                <input type ="date" name="DOB" placeholder = "Date of Birth" required/><br/><br/>
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                     <div class="btn-group" role="group" aria-label="First group">
                         <button class = "signup" type="submit" value="Signup">Register</Button>
