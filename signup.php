@@ -1,4 +1,10 @@
 <style>
+    @media only screen and max-width:50px{
+        #box{
+            width: 100%;
+            height: 100%;
+        }
+    }
     html{
         height: 100%;
     }

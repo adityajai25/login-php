@@ -92,7 +92,6 @@
         line-height: 20px;
         text-transform: capitalize;
         color: #000000;
-
     }
     .signup{
         width: 400px;
@@ -130,7 +129,7 @@
             <h1> Login Page </h1>
             <form action="validate.php" method="POST">
                 <!-- <label>User-Email</label> -->
-                <input type="text" name="email" placeholder="User Email" required/><br/><br/>
+                <input type="email" name="email" placeholder="User Email" required/><br/><br/>
                 <!-- <label>Password</label> -->
                 <input type="password" name="password" placeholder="Password" required/><br><br>
                 <button class="login" type="submit" value="Login">Login</button>
