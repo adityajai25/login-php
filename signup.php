@@ -135,7 +135,7 @@
                         <button class = "signup" type="submit" value="signup">Register</Button>
                     </div>
                     <div class="btn-group me-2" role="group" aria-label="Second group">
-                        <button class = "login" type="button" onclick="window.location.href='login.php'">Login</button>
+                        <button class = "login" type="button" onclick="window.location.href='index.php'">Login</button>
                     </div>
                 </div>
             </form>

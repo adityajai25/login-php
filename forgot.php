@@ -124,7 +124,7 @@
                 <input type="text" id="email" name="email" placeholder="Enter your email address" required>
                 <button class = "submit" type="submit" name="submit">Send Request</button><br>
                 <label class = "new">Back to login</label><br>
-                <button class = "login" type="button" onclick="window.location.href='login.php'">Login</button>
+                <button class = "login" type="button" onclick="window.location.href='index.php'">Login</button>
             </form>
         </div>
     </body>

@@ -100,7 +100,7 @@
         <div class = "container" id = "box">
             <h1> Invalid Login </h1>
             <label class="new"> You have entered an invalid username or password. Please try again. </label>
-            <button class="login" type="button" onclick="window.location.href='login.php'">Login</button>
+            <button class="login" type="button" onclick="window.location.href='index.php'">Login</button>
 
             <label class="new" style = "margin-left:-65% !important; font-style=Verdana;font-weight:400px;font-size:16px;"> New User ? </label>
             <button class="signup" type="button" onclick="window.location.href='signup.php'">Signup</button>

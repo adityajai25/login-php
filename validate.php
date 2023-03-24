@@ -9,7 +9,7 @@ if(!isset($_POST['submit'])){
     }
     $result = mysqli_query($conn, $sql);
     if(mysqli_num_rows($result) > 0){
-        header("Location: index.php");
+        header("Location: landing.php");
     }
     else{
         header("Location: incorrect.php");

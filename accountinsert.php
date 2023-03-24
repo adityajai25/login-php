@@ -17,7 +17,7 @@
             $result = mysqli_query($conn, $sql);
             if($result){
                 echo "Account Created Successfully";
-                header("Location: login.php");
+                header("Location: index.php");
             }
             else{
                 header("Location: signup.php");
