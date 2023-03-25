@@ -6,6 +6,7 @@ if(!isset($_POST['submit'])){
     $sql = "SELECT * FROM login_details WHERE Email = '$email' AND Password = '$password'";
     if($password == FALSE){
         echo "Please enter a password";
+        echo "Hello";
     }
     $result = mysqli_query($conn, $sql);
     if(mysqli_num_rows($result) > 0){
