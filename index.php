@@ -1,4 +1,3 @@
-!Doctype html
 <style>
     @media only screen and max-width:118px{
         #box{
